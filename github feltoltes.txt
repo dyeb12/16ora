@@ -1,0 +1,80 @@
+Microsoft Windows [Version 10.0.19045.4651]
+(c) Microsoft Corporation. Minden jog fenntartva.
+
+C:\Users\Csaszi>cd..
+
+C:\Users>cd..
+
+C:\>cd __munka
+
+C:\__Munka>cd pyton
+A rendszer nem találja a megadott elérési utat.
+
+C:\__Munka>cd python
+
+C:\__Munka\python>cd 16ora
+
+C:\__Munka\python\16ora>dir
+ Volume in drive C is OS
+ Volume Serial Number is 3039-4667
+
+ Directory of C:\__Munka\python\16ora
+
+2024. 08. 07.  18:44    <DIR>          .
+2024. 08. 07.  18:44    <DIR>          ..
+2024. 08. 07.  17:25             9 707 16_notebook.ipynb
+2024. 08. 07.  18:47    <DIR>          githubrepo
+2024. 08. 07.  18:31                60 hellp_world.py
+               2 File(s)          9 767 bytes
+               3 Dir(s)  924 523 528 192 bytes free
+
+C:\__Munka\python\16ora>cd github_repo
+
+C:\__Munka\python\16ora\github_repo>echo "# proba" >> README.mdgit initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/dyeb12/proba.gitgit push -u origin main
+
+C:\__Munka\python\16ora\github_repo>echo "# proba" >> README.md
+
+C:\__Munka\python\16ora\github_repo>git init
+Initialized empty Git repository in C:/__Munka/python/16ora/github_repo/.git/
+
+C:\__Munka\python\16ora\github_repo>git add README.md
+
+C:\__Munka\python\16ora\github_repo>git commit -m "first commit"
+[master (root-commit) f53175a] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\__Munka\python\16ora\github_repo>git branch -M main
+
+C:\__Munka\python\16ora\github_repo>git remote add origin https://github.com/dyeb12/proba.git
+
+C:\__Munka\python\16ora\github_repo>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 196 bytes | 196.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dyeb12/proba.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\__Munka\python\16ora\github_repo>echo print ("hello") > hello.py
+
+C:\__Munka\python\16ora\github_repo>git add hello.py
+
+C:\__Munka\python\16ora\github_repo>git commit -m "masodik esely"
+[main f2a4fba] masodik esely
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.py
+
+C:\__Munka\python\16ora\github_repo>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 272 bytes | 272.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dyeb12/proba.git
+   f53175a..f2a4fba  main -> main
+
+C:\__Munka\python\16ora\github_repo>
